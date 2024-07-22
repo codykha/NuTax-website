@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-.sora-bold {
-    font-family: "Sora", sans-serif;
-    font-weight: 700;
-}
-
-.sora-regular {
-    font-family: "Sora", sans-serif;
-    font-weight: 400;
-}
-
 .quicksand-bold {
     font-family: "Quicksand", sans-serif;
     font-weight: 700; 
@@ -20,6 +10,16 @@
     font-weight: 400; 
 }
 
+.satoshi-bold {
+    font-family: 'Satoshi-Bold';
+    font-weight: 700;
+}
+
+.satoshi-regular {
+    font-family: 'Satoshi-Regular';
+    font-weight: 400;
+}
+
 /* HERO */
 
 /* BODY */
@@ -27,6 +27,49 @@
 /* CONTACT */
 
 /* MEDIA */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* LICENSED CONTENT */
 /**
