@@ -85,6 +85,10 @@ main {
      background: #EEF;
 }
 
+main h2 {
+     margin-top: 0;
+}
+
 main .nutax {
      display: inline;
      color: #A682FF;
