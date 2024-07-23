@@ -32,6 +32,27 @@ main .nutax {
      color: #A682FF;
 }
 
+main .purple-box-1 {
+     position: fixed;
+     z-index: 1;
+     display: none;
+}
+
+main .purple-box-2 {
+     position: fixed;
+     z-index: 1;
+     display: none;
+}
+
+main .business, .personal {
+     text-align: center;
+}
+
+main .business p, .personal p {
+     position: relative;
+     z-index: 5;
+}
+
 /* CONTACT */
 
 /* MEDIA */
