@@ -81,6 +81,14 @@ body {
 }
 
 /* BODY */
+main {
+     background: #EEF;
+}
+
+main .nutax {
+     display: inline;
+     color: #A682FF;
+}
 
 /* CONTACT */
 
