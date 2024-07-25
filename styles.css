@@ -98,7 +98,38 @@ body {
 /* BODY */
 main {
      background: #EEF;
+     /* z-index: 20; */
 }
+
+/* Create two equal columns */
+/* .column-2 {
+     float: left;
+     width: 50%;
+     padding: 10px;
+} */
+ 
+ /* Create three equal columns */
+/* .column-3 {
+     float: left;
+     width: 33.33%;
+} */
+
+/* Clear floats after the columns */
+/* main .row:after {
+     content: "";
+     display: table;
+     clear: both;
+} */
+
+/* Responsive layout founders - columns will stack on top of each other for mobile */
+/* @media screen and (max-width: 768px) {
+     main .column-2 {
+         width: 100%;
+     }
+     main .column-3 {
+         width: 100%;
+     }
+} */
 
 main h2 {
      margin-top: 0;
@@ -110,24 +141,39 @@ main .nutax {
 }
 
 main .purple-box-1 {
-     position: fixed;
+     position: absolute;
      z-index: 1;
-     display: none;
+     width: 10rem;
+     height: 12.875rem;
+     flex-shrink: 0;
+     fill: #A682FF;
+     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+     /* display: none; */
 }
 
 main .purple-box-2 {
-     position: fixed;
+     position: absolute;
      z-index: 1;
-     display: none;
+     /* display: none; */
 }
 
 main .business, .personal {
      text-align: center;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
 }
 
 main .business p, .personal p {
      position: relative;
      z-index: 5;
+     color: #EEF;
+     font-size: 0.875rem;
+     font-style: normal;
+     line-height: normal;
+     width: 7.75rem;
+     height: 10.5rem;
+     flex-shrink: 0;
 }
 
 /* CONTACT */
@@ -221,9 +267,9 @@ main .business p, .personal p {
   }
   @font-face {
     font-family: 'Satoshi-Regular';
-    src: url('../fonts/Satoshi-Regular.woff2') format('woff2'),
-         url('../fonts/Satoshi-Regular.woff') format('woff'),
-         url('../fonts/Satoshi-Regular.ttf') format('truetype');
+    src: url('fonts/Satoshi-Regular.woff2') format('woff2'),
+         url('fonts/Satoshi-Regular.woff') format('woff'),
+         url('fonts/Satoshi-Regular.ttf') format('truetype');
     font-weight: 400;
     font-display: swap;
     font-style: normal;
@@ -257,9 +303,9 @@ main .business p, .personal p {
   }
   @font-face {
     font-family: 'Satoshi-Bold';
-    src: url('../fonts/Satoshi-Bold.woff2') format('woff2'),
-         url('../fonts/Satoshi-Bold.woff') format('woff'),
-         url('../fonts/Satoshi-Bold.ttf') format('truetype');
+    src: url('fonts/Satoshi-Bold.woff2') format('woff2'),
+         url('fonts/Satoshi-Bold.woff') format('woff'),
+         url('fonts/Satoshi-Bold.ttf') format('truetype');
     font-weight: 700;
     font-display: swap;
     font-style: normal;
