@@ -102,24 +102,24 @@ main {
 }
 
 /* Create two equal columns */
-/* .column-2 {
+.column-2 {
      float: left;
      width: 50%;
      padding: 10px;
-} */
+}
  
  /* Create three equal columns */
-/* .column-3 {
+.column-3 {
      float: left;
      width: 33.33%;
-} */
+}
 
 /* Clear floats after the columns */
-/* main .row:after {
+main .row:after {
      content: "";
      display: table;
      clear: both;
-} */
+}
 
 /* Responsive layout founders - columns will stack on top of each other for mobile */
 /* @media screen and (max-width: 768px) {
@@ -148,13 +148,16 @@ main .purple-box-1 {
      flex-shrink: 0;
      fill: #A682FF;
      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-     /* display: none; */
 }
 
 main .purple-box-2 {
      position: absolute;
      z-index: 1;
-     /* display: none; */
+     width: 10rem;
+     height: 12.875rem;
+     flex-shrink: 0;
+     fill: #A682FF;
+     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 main .business, .personal {
@@ -164,7 +167,7 @@ main .business, .personal {
      justify-content: space-around;
 }
 
-main .business p, .personal p {
+main .business p {
      position: relative;
      z-index: 5;
      color: #EEF;
@@ -174,6 +177,24 @@ main .business p, .personal p {
      width: 7.75rem;
      height: 10.5rem;
      flex-shrink: 0;
+}
+
+main .personal p {
+     position: relative;
+     justify-content: center;
+     align-items: center;
+     z-index: 5;
+     color: #EEF;
+     font-size: 0.875rem;
+     font-style: normal;
+     line-height: normal;
+     width: 7.75rem;
+     height: 10.5rem;
+     flex-shrink: 0;
+}
+
+main .categories-container {
+     display: flex;
 }
 
 /* CONTACT */
