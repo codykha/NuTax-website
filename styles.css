@@ -249,6 +249,104 @@ main .categories-container {
 
 /* CONTACT */
 
+.contact-section {
+     width: 430px;
+     height: 395px;
+     background-color: #8a7ed8;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 50px 0;
+     flex-shrink: 0;
+}
+
+.container {
+     background-color: #b0a3f4;
+     padding: 20px;
+     text-align: center;
+     color: white;
+     width: 401px;
+     height: 384px;
+     flex-shrink: 0;
+     border-radius: 10px;
+     background: rgba(166, 130, 255, 0.30);
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+     backdrop-filter: blur(2px);
+}
+
+h1 {
+     color: #EEF;
+     text-align: center;
+     font-family: Satoshi;
+     font-size: 32px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     
+}
+
+.highlight {
+     color: #50e0b5;
+}
+
+.registered {
+     font-size: 12px;
+     vertical-align: super;
+}
+
+p {
+     color: #EEF;
+     text-align: center;
+     font-family: Quicksand;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+}
+
+.form-container {
+     width: 340px;
+     height: 130px;
+     flex-shrink: 0;
+     border-radius: 10px;
+     background: rgba(166, 130, 255, 0.30);
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+     backdrop-filter: blur(2px);
+     padding: 10px;
+     margin-top: 20px;
+     border-radius: 10px;
+
+}
+
+input[type="email"] {
+     padding: 10px;
+     border: none;
+     border-radius: 5px;
+     margin-bottom: 10px;
+     width: 285px;
+     height: 35px;
+     flex-shrink: 0;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+button {
+     background-color: #50e0b5;
+     color: #000;
+     border: none;
+     padding: 10px 20px;
+     cursor: pointer;
+     width: 110px;
+     height: 35px;
+     flex-shrink: 0;
+     border-radius: 10px;
+     background: #2CF6B3;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+button:hover {
+     background-color: #45cba2;
+}
+
 /* MEDIA */
 
 
