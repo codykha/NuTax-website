@@ -156,6 +156,7 @@ body {
 }
 
 /* BODY */
+
 main {
      background: #EEF;
      z-index: 10;
@@ -195,11 +196,26 @@ main h2 {
      margin-top: 0;
 }
 
-main .nutax {
-     display: inline;
-     color: #A682FF;
+/* Main title */
+main .main-title {
+     color: #565554;
+     font-size: 2rem;
+     font-style: normal;
+     font-weight: 900;
+     line-height: normal;
 }
 
+/* Main title - NuTax highlighting */
+main .main-title .nutax {
+     color: #A682FF;
+     font-size: 2rem;
+     font-style: normal;
+     font-weight: 900;
+     line-height: normal;
+     text-decoration-line: underline;
+}
+
+/* Business box */
 main .purple-box-1 {
      position: absolute;
      z-index: 1;
@@ -210,6 +226,7 @@ main .purple-box-1 {
      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
+/* Personal box */
 main .purple-box-2 {
      position: absolute;
      z-index: 1;
@@ -220,6 +237,7 @@ main .purple-box-2 {
      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
+/* Alignment of business and personal sections */
 main .business, .personal {
      text-align: center;
      display: flex;
@@ -227,6 +245,16 @@ main .business, .personal {
      justify-content: space-around;
 }
 
+/* Business title */
+main .business-title {
+     color: #565554;
+     font-size: 1.25rem;
+     font-style: normal;
+     font-weight: 900;
+     line-height: normal;
+}
+
+/* Business text */
 main .business p {
      position: relative;
      z-index: 5;
@@ -239,6 +267,16 @@ main .business p {
      flex-shrink: 0;
 }
 
+/* Personal title */
+main .personal-title {
+     color: #565554;
+     font-size: 1.25rem;
+     font-style: normal;
+     font-weight: 900;
+     line-height: normal;
+}
+
+/* Personal text */
 main .personal p {
      position: relative;
      justify-content: center;
@@ -253,9 +291,160 @@ main .personal p {
      flex-shrink: 0;
 }
 
+/* Display of top section */
 main .categories-container {
      display: flex;
 }
+
+/* Centered text */
+main .text-center {
+     text-align: center;
+}
+
+/* Paragraph 1 title */
+main .p1-title {
+     color: #565554;
+     font-size: 1.25rem;
+     font-style: normal;
+     font-weight: 900;
+     line-height: normal;
+}
+
+/* Paragraph 2 title */
+main .p2-title {
+     color: #565554;
+     font-size: 1.25rem;
+     font-style: normal;
+     font-weight: 900;
+     line-height: normal;
+}
+
+/* Paragraph 2 title NuTax */
+main .p2-title .nutax {
+     color: #A682FF;
+     font-size: 1.25rem;
+     font-style: normal;
+     font-weight: 900;
+     line-height: normal;
+}
+
+
+/* Paragraph 3 title */
+main .p3-title {
+     color: #565554;
+     font-size: 1.25rem;
+     font-style: normal;
+     font-weight: 900;
+     line-height: normal;
+}
+
+/* Paragraph 3 title NuTax */
+main .p3-title .nutax {
+     color: #A682FF;
+     font-size: 1.25rem;
+     font-style: normal;
+     font-weight: 900;
+     line-height: normal;
+}
+
+/* Main Rectangles */
+
+/* 
+     First section 
+     +65px between rectangles
+*/
+
+/* Rectangle 1 - left pos 1 */
+main .rectangle-1 {
+     position: absolute;
+     border-radius: 10px;
+     transform: rotate(-25.38deg);
+     transform: translateY(45px);
+}
+
+/* Rectangle 2 - left pos 2 */
+main .rectangle-2 {
+     position: absolute;
+     border-radius: 10px;
+     transform: rotate(-25.38deg);
+     transform: translateY(110px);
+}
+
+/* Rectangle 3 - left pos 3 */
+main .rectangle-3 {
+     position: absolute;
+     border-radius: 10px;
+     transform: rotate(-25.38deg);
+     transform: translateY(175px);
+}
+
+/* 
+     Second section 
+     +65px between rectangles 
+*/
+
+/* Rectangle second 1 - right pos 1 */
+main .rectangle-second-1 {
+     position: absolute;
+     right: 0px;
+     border-radius: 10px;
+     transform: rotate(-25.38deg);
+     transform: translateY(-80px);
+}
+
+/* Rectangle second 2 - right pos 2 */
+main .rectangle-second-2 {
+     position: absolute;
+     right: 0px;
+     /* border-radius: 10px;
+     transform: rotate(-25.38deg); */
+     transform: translateY(-15px);
+}
+
+/* Rectangle second 3 - right pos 3 */
+main .rectangle-second-3 {
+     position: absolute;
+     right: 0px;
+     /* border-radius: 10px;
+     transform: rotate(-25.38deg); */
+     transform: translateY(50px);
+}
+
+
+/* Rectangle 21 */
+
+/* position: absolute;
+width: 209.64px;
+height: 42.24px;
+left: 258px;
+top: 455.87px;
+
+background: rgba(166, 130, 255, 0.2);
+border-radius: 10px;
+transform: rotate(-25.38deg); */
+
+
+
+
+/* OR */
+
+/* position: absolute;
+width: 29px;
+height: 25px;
+left: 201px;
+top: 183px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 25px; */
+/* identical to box height */
+/* text-decoration-line: underline;
+
+color: #565554; */
+
+
 
 /* CONTACT */
 
@@ -475,18 +664,18 @@ button:hover {
 */
 @font-face {
     font-family: 'Satoshi-Light';
-    src: url('../fonts/Satoshi-Light.woff2') format('woff2'),
-         url('../fonts/Satoshi-Light.woff') format('woff'),
-         url('../fonts/Satoshi-Light.ttf') format('truetype');
+    src: url('fonts/Satoshi-Light.woff2') format('woff2'),
+         url('fonts/Satoshi-Light.woff') format('woff'),
+         url('fonts/Satoshi-Light.ttf') format('truetype');
     font-weight: 300;
     font-display: swap;
     font-style: normal;
   }
   @font-face {
     font-family: 'Satoshi-LightItalic';
-    src: url('../fonts/Satoshi-LightItalic.woff2') format('woff2'),
-         url('../fonts/Satoshi-LightItalic.woff') format('woff'),
-         url('../fonts/Satoshi-LightItalic.ttf') format('truetype');
+    src: url('fonts/Satoshi-LightItalic.woff2') format('woff2'),
+         url('fonts/Satoshi-LightItalic.woff') format('woff'),
+         url('fonts/Satoshi-LightItalic.ttf') format('truetype');
     font-weight: 300;
     font-display: swap;
     font-style: italic;
