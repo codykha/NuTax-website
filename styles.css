@@ -87,14 +87,24 @@ body {
      transform: translateY(280px);
 }
 
-.hero-woman-container {
+.hero-woman-container svg{
      position: absolute;
      right:0;
 }
 
-/* .hero-woman-head {
+.hero-woman-head {
+     transform: translate(-15px, 45px);
+}
 
-} */
+.hero-woman-body {
+     transform: translate(0px, 110px);
+     z-index: 9;
+}
+
+.hero-woman-legs {
+     transform: translate(-15px, 220px);
+     z-index: 5;
+}
 
 .hero-content {
      position: relative;
@@ -148,7 +158,7 @@ body {
 /* BODY */
 main {
      background: #EEF;
-     /* z-index: 20; */
+     z-index: 10;
 }
 
 /* Create two equal columns */
@@ -251,6 +261,53 @@ main .categories-container {
 
 /* MEDIA */
 
+@media (min-width: 375px) {
+     
+}
+
+@media (max-width: 375px) {
+     .hero-motto {
+          font-size: 2.25rem;
+       }
+     .NU-coloring {
+          font-size: 2.75rem;
+       }
+     .hero-bio {
+          font-size: 0.9rem;
+       }
+}
+
+@media (min-width: 425px) {
+  
+}
+
+@media (max-width: 425px) {
+  
+}
+
+@media (min-width: 768px) {
+  
+}
+
+@media (min-width: 768px) {
+  
+}
+
+@media (min-width: 1024px) {
+  
+}
+
+@media (max-width: 1024px) {
+  
+}
+
+@media (min-width: 1440px) {
+  
+}
+
+@media (max-width: 1440px) {
+  
+}
 
 
 
